@@ -1,34 +1,33 @@
-#root {
-    width: 100vw;
-    height: 100vh;
+* {
+    box-sizing: border-box;
 }
 
 body {
     background: white;
 }
 
-.Toolbar {
-    float: left;
-    font-family: 'Trebuchet MS';
-    font-size: 14px;
-    font-variant: small-caps;
-    text-align: center;
-    background: #F2F7FE;
-    padding: 10px 15px 3px 10px;
-    margin-bottom: 1px;
-    margin-right: 1px;
+.container {
+    width: 702px;
+    display: flex;
     border: 1px solid #7B899B;
 }
 
-.Toolbar button {
-    padding: 6px;
-    margin: 7px 2px;
-    font-variant: normal;
-    font-size: 12px;
+.toolbar {
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    text-align: center;
+    background: #F2F7FE;
+    padding: 5px 9px 3px 5px;
+    margin-bottom: 1px;
+    margin-right: 1px;
 }
 
-.CanvasContainer {
-    clear: both;
+.toolbar-button {
+    padding: 6px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    background: #F2F7FE;
 }
 
 canvas {
@@ -43,17 +42,4 @@ img {
 img:hover {
     border: 2px groove #E4F0FE;
     background: white;
-}
-
-img.Selected {
-    border: 2px groove #E4F0FE;
-}
-
-#savedCopyContainer {
-    display: none;
-}
-
-#savedCopyContainer img {
-    width: 250px;
-    height: 150px;
 }

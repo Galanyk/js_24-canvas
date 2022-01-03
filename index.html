@@ -11,26 +11,28 @@
 
 <body>
     <div id="root">
-        <div class="Toolbar">
-            <h3>Colors</h3>
-            <img id="redPen" class="color" src="images/red.png">
-            <img id="greenPen" class="color" src="images/green.png">
-            <img id="bluePen" class="color" src="images/blue.png">
-            <img id="pinkPen" class="color" src="images/pink.png">
-            <img id="yellowPen" class="color" src="images/yellow.png">
-        </div>
-        <div class="Toolbar">
-            <h3>Eraser</h3>
-            <img id="eraserPen" class="color" src="images/pngwing.png">
-        </div>
-        <div class="Toolbar">
-            <h3>Thickness</h3>
-            <img id="thickness-1" class="thickness" src="http://professorweb.ru/downloads/pen_thin.gif">
-            <img id="thickness-5" class="thickness" src="http://professorweb.ru/downloads/pen_medium.gif">
-            <img id="thickness-10" class="thickness" src="http://professorweb.ru/downloads/pen_thick.gif">
-        </div>
-        <div class="Toolbar">
-            <button class="clearCanvas">Clear Canvas</button>
+        <div class="container">
+            <div class="toolbar">
+                <h3>Colors</h3>
+                <img id="redPen" class="color" src="images/red.png">
+                <img id="greenPen" class="color" src="images/green.png">
+                <img id="bluePen" class="color" src="images/blue.png">
+                <img id="pinkPen" class="color" src="images/pink.png">
+                <img id="yellowPen" class="color" src="images/yellow.png">
+            </div>
+            <div class="toolbar">
+                <h3>Eraser</h3>
+                <img id="eraserPen" class="color" src="images/pngwing.png">
+            </div>
+            <div class="toolbar">
+                <h3>Thickness</h3>
+                <img id="thickness-1" class="thickness" src="http://professorweb.ru/downloads/pen_thin.gif">
+                <img id="thickness-5" class="thickness" src="http://professorweb.ru/downloads/pen_medium.gif">
+                <img id="thickness-10" class="thickness" src="http://professorweb.ru/downloads/pen_thick.gif">
+            </div>
+            <div class="toolbar-button">
+                <button class="clearCanvas">Clear Canvas</button>
+            </div>
         </div>
         <div class="CanvasContainer">
             <canvas id="drawingCanvas" width="700" height="500"></canvas>
