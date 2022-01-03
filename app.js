@@ -1,9 +1,6 @@
 containerEl = document.querySelector('#root');
 containerEl.addEventListener("click", onClick);
 let isDrawing;
-let canvas;
-let context;
-let className;
 
 const colors = [{
         id: 'redPen',
